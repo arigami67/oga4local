@@ -1,0 +1,16 @@
+backup/
+log/
+tmp/
+cgi-bin/
+www/cache/
+www/archive_games/
+www/includes/backups/
+www/browser/
+www/PHPMyAdmin/
+www/licenses
+www/Sqlitemanager/
+www/sxd/
+www/tools/
+www/yandex.js
+www/styles/images/Капец_01.bmp
+www/styles/images/шаблоны/
