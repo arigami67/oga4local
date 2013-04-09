@@ -1,30 +1,14 @@
-<?php
+﻿<?php
 
 /**
- *  2Moons
- *  Copyright (C) 2011 Jan Kröpke
+ *  OGA
+ *  Copyright (C) 2013 groop oga.4local.ru
  *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
- * @package 2Moons
- * @author Jan Kröpke <info@2moons.cc>
- * @copyright 2009 Lucky
- * @copyright 2011 Jan Kröpke <info@2moons.cc>
- * @license http://www.gnu.org/licenses/gpl.html GNU GPLv3 License
- * @version 1.5 (2011-07-31)
- * @info $Id: dbtables.php 2490 2012-12-27 16:21:07Z slaver7 $
- * @link http://2moons.cc/
+ * This program is software created oga.4local.ru group developer.
+ * @package OGA
+ * @author oga.4local.ru
+ * @copyright 2013 oga.4local.ru
+ * @info $Id: dbtables.php
  */
 
 // Global configkeys

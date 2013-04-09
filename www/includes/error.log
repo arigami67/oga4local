@@ -16905,3 +16905,2703 @@ Stack trace:
 #3 /includes/pages/login/ShowRegisterPage.class.php(295): Mail::send('LoonLoon@rer.ru', 'Loon', '???????????????...', '???????????????...')
 #4 /index.php(65): ShowRegisterPage-&gt;send()
 #5 {main}
+[07-Apr-2013 16:00:00] WARNING: "mysqli::query(): MySQL server has gone away"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 73
+URL: http://oga.4local.ru/game.php?page=ticket | Version: 1.7.2629
+Stack trace:
+#0 [internal function]: errorHandler(2, 'mysqli::query()...', '/hosting/oga.4l...', 73, Array)
+#1 /includes/classes/class.Database.php(73): mysqli-&gt;query('UPDATE uni1_fle...')
+#2 /includes/FleetHandler.php(33): Database-&gt;query('UPDATE uni1_fle...')
+#3 /includes/common.php(126): require('/hosting/oga.4l...')
+#4 /game.php(35): require('/hosting/oga.4l...')
+#5 {main}
+[07-Apr-2013 16:00:01] WARNING: "Error while sending QUERY packet. PID=38517"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 73
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 [internal function]: errorHandler(2, 'Error while sen...', '/hosting/oga.4l...', 73, Array)
+#1 /includes/classes/class.Database.php(73): mysqli-&gt;query('SELECT * FROM u...')
+#2 /includes/classes/class.Database.php(92): Database-&gt;query('SELECT * FROM u...')
+#3 /includes/classes/class.Database.php(87): Database-&gt;uniquequery('SELECT * FROM u...')
+#4 /includes/classes/class.Session.php(115): Database-&gt;getFirstRow('SELECT * FROM u...')
+#5 /includes/classes/class.Session.php(125): Session-&gt;GetSessionFromDB()
+#6 /includes/common.php(120): Session-&gt;updateSession()
+#7 /game.php(35): require('/hosting/oga.4l...')
+#8 {main}
+[07-Apr-2013 16:00:06] USER ERROR: "Connection to database failed: No such file or directory"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 57
+URL: http://oga.4local.ru/game.php?page=notes | Version: UNKNOWN
+Stack trace:
+#0 /includes/common.php(102): Database-&gt;__construct()
+#1 /game.php(35): require('/hosting/oga.4l...')
+#2 {main}
+[07-Apr-2013 16:00:06] USER ERROR: "Connection to database failed: No such file or directory"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 57
+URL: http://oga.4local.ru/game.php?page=resources | Version: UNKNOWN
+Stack trace:
+#0 /includes/common.php(102): Database-&gt;__construct()
+#1 /game.php(35): require('/hosting/oga.4l...')
+#2 {main}
+[07-Apr-2013 16:00:07] USER ERROR: "Connection to database failed: No such file or directory"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 57
+URL: http://oga.4local.ru/game.php?page=buildings | Version: UNKNOWN
+Stack trace:
+#0 /includes/common.php(102): Database-&gt;__construct()
+#1 /game.php(35): require('/hosting/oga.4l...')
+#2 {main}
+[07-Apr-2013 16:00:09] USER ERROR: "Connection to database failed: No such file or directory"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 57
+URL: http://oga.4local.ru/game.php?page=ticket | Version: UNKNOWN
+Stack trace:
+#0 /includes/common.php(102): Database-&gt;__construct()
+#1 /game.php(35): require('/hosting/oga.4l...')
+#2 {main}
+[07-Apr-2013 16:00:09] USER ERROR: "Connection to database failed: No such file or directory"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 57
+URL: http://oga.4local.ru/game.php?page=overview | Version: UNKNOWN
+Stack trace:
+#0 /includes/common.php(102): Database-&gt;__construct()
+#1 /game.php(35): require('/hosting/oga.4l...')
+#2 {main}
+[07-Apr-2013 16:00:11] USER ERROR: "Connection to database failed: No such file or directory"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 57
+URL: http://oga.4local.ru/game.php?page=resources | Version: UNKNOWN
+Stack trace:
+#0 /includes/common.php(102): Database-&gt;__construct()
+#1 /game.php(35): require('/hosting/oga.4l...')
+#2 {main}
+[07-Apr-2013 16:00:11] USER ERROR: "Connection to database failed: No such file or directory"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 57
+URL: http://oga.4local.ru/game.php?page=notes&ajax=1 | Version: UNKNOWN
+Stack trace:
+#0 /includes/common.php(102): Database-&gt;__construct()
+#1 /game.php(35): require('/hosting/oga.4l...')
+#2 {main}
+[07-Apr-2013 16:00:12] USER ERROR: "Connection to database failed: No such file or directory"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 57
+URL: http://oga.4local.ru/game.php?page=resources | Version: UNKNOWN
+Stack trace:
+#0 /includes/common.php(102): Database-&gt;__construct()
+#1 /game.php(35): require('/hosting/oga.4l...')
+#2 {main}
+[07-Apr-2013 18:20:59 UTC] PHP Warning:  Unterminated comment starting line 3 in /hosting/oga.4local.ru/www/includes/classes/ArrayUtil.class.php on line 3
+[07-Apr-2013 18:20:59 UTC] PHP Fatal error:  Class 'ArrayUtil' not found in /hosting/oga.4local.ru/www/includes/GeneralFunctions.php on line 122
+[07-Apr-2013 18:21:02 UTC] PHP Warning:  Unterminated comment starting line 3 in /hosting/oga.4local.ru/www/includes/classes/class.theme.php on line 3
+[07-Apr-2013 18:21:02 UTC] PHP Parse error:  syntax error, unexpected T_STRING in /hosting/oga.4local.ru/www/includes/classes/class.theme.php on line 14
+[07-Apr-2013 18:21:13 UTC] PHP Warning:  Unterminated comment starting line 9 in /hosting/oga.4local.ru/www/includes/libs/Smarty/plugins/function.html_options.php on line 9
+[07-Apr-2013 18:21:14 UTC] PHP Parse error:  syntax error, unexpected $end in /hosting/oga.4local.ru/www/includes/libs/Smarty/plugins/function.html_options.php on line 21
+[07-Apr-2013 18:21:28 UTC] PHP Fatal error:  Class 'Smarty_Internal_Data' not found in /hosting/oga.4local.ru/www/includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php on line 18
+[07-Apr-2013 18:22:25 UTC] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /hosting/oga.4local.ru/www/language/ru/TECH.php on line 18
+[07-Apr-2013 21:24:00] USER ERROR: "Syntax Error in template &quot;/hosting/oga.4local.ru/www/styles/templates/game/main.topnav.tpl&quot;  on line 18 &quot;{foreach $resourceTable as $resourceID =&amp;gt; $re&quot;  - Unexpected &quot;re&quot;, expected one of: &quot;}&quot; , &quot; &quot; , ATTR"
+File: /hosting/oga.4local.ru/www/includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php | Line: 665
+URL: http://oga.4local.ru/game.php?page=buildings | Version: 1.7.2629
+Stack trace:
+#0 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3144): Smarty_Internal_TemplateCompilerBase-&gt;trigger_template_error()
+#1 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3209): Smarty_Internal_Templateparser-&gt;yy_syntax_error(0, 0)
+#2 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(113): Smarty_Internal_Templateparser-&gt;doParse(0, 0)
+#3 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('&lt;div id=&quot;page&quot;&gt;...')
+#4 /includes/libs/Smarty/sysplugins/smarty_internal_compile_include.php(146): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#5 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(483): Smarty_Internal_Compile_Include-&gt;compile(Array, Object(Smarty_Internal_SmartyTemplateCompiler), Array, NULL, NULL)
+#6 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(257): Smarty_Internal_TemplateCompilerBase-&gt;callTagCompiler('include', Array, Array)
+#7 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(2388): Smarty_Internal_TemplateCompilerBase-&gt;compileTag('include', Array)
+#8 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3101): Smarty_Internal_Templateparser-&gt;yy_r36()
+#9 /includes/libs/Smarty/sysplugins/smarty_internal_templateparser.php(3201): Smarty_Internal_Templateparser-&gt;yy_reduce(36)
+#10 /includes/libs/Smarty/sysplugins/smarty_internal_smartytemplatecompiler.php(105): Smarty_Internal_Templateparser-&gt;doParse(10, '??&lt;div id=&quot;cont...')
+#11 /includes/libs/Smarty/sysplugins/smarty_internal_templatecompilerbase.php(200): Smarty_Internal_SmartyTemplateCompiler-&gt;doCompile('{include file=&quot;...')
+#12 /includes/libs/Smarty/sysplugins/smarty_internal_template.php(187): Smarty_Internal_TemplateCompilerBase-&gt;compileTemplate(Object(Smarty_Internal_Template))
+#13 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(164): Smarty_Internal_Template-&gt;compileTemplateSource()
+#14 /includes/libs/Smarty/sysplugins/smarty_internal_templatebase.php(374): Smarty_Internal_TemplateBase-&gt;fetch('extends:layout....', NULL, NULL, NULL, true)
+#15 /includes/classes/class.template.php(142): Smarty_Internal_TemplateBase-&gt;display('extends:layout....')
+#16 /includes/pages/game/class.AbstractPage.php(246): template-&gt;display('extends:layout....')
+#17 /includes/pages/game/class.ShowBuildingsPage.php(357): AbstractPage-&gt;display('page.buildings....')
+#18 /game.php(65): ShowBuildingsPage-&gt;show()
+#19 {main}
+[08-Apr-2013 11:05:11] USER ERROR: "Connection to database failed: No such file or directory"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 57
+URL: http://oga.4local.ru/game.php?page=buildings | Version: UNKNOWN
+Stack trace:
+#0 /includes/common.php(86): Database-&gt;__construct()
+#1 /game.php(35): require('/hosting/oga.4l...')
+#2 {main}
+[08-Apr-2013 11:31:37] USER ERROR: "Connection to database failed: No such file or directory"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 57
+URL: http://oga.4local.ru/game.php?page=fleetStep2 | Version: UNKNOWN
+Stack trace:
+#0 /includes/common.php(86): Database-&gt;__construct()
+#1 /game.php(35): require('/hosting/oga.4l...')
+#2 {main}
+[08-Apr-2013 11:43:16] USER ERROR: "Connection to database failed: No such file or directory"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 57
+URL: http://oga.4local.ru/game.php?page=fleetStep2 | Version: UNKNOWN
+Stack trace:
+#0 /includes/common.php(86): Database-&gt;__construct()
+#1 /game.php(35): require('/hosting/oga.4l...')
+#2 {main}
+[08-Apr-2013 13:13:16] USER ERROR: "SQL Error: Table 'uni1_users' is marked as crashed and should be repairedQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 750299.86016121,
+				   p.crystal = 911238.09763418,
+				   p.deuterium = 572972.3319214,
+				   p.eco_hash = '160965209d6eb509fa7162d84ccc3cdb',
+				   p.last_update = 1365415996,
+				   p.b_building = '1365417806',
+				   p.b_building_id = 'a:6:{i:0;a:5:{i:0;i:12;i:1;i:7;i:2;d:2257;i:3;d:1365417806;i:4;s:5:"build";}i:1;a:5:{i:0;i:1;i:1;i:17;i:2;d:2069;i:3;d:1365423801;i:4;s:5:"build";}i:2;a:5:{i:0;i:2;i:1;i:17;i:2;d:1986;i:3;d:1365425787;i:4;s:5:"build";}i:3;a:5:{i:0;i:3;i:1;i:16;i:2;d:5517;i:3;d:1365431304;i:4;s:5:"build";}i:4;a:5:{i:0;i:14;i:1;i:9;i:2;d:7454;i:3;d:1365438758;i:4;s:5:"build";}i:5;a:5:{i:0;i:21;i:1;i:11;i:2;d:34406;i:3;d:1365473164;i:4;s:5:"build";}}',
+				   p.field_current = 91,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 28643.144140,
+				   p.crystal_perhour = 18863.969676,
+				   p.deuterium_perhour = 9519.474959,
+				   p.metal_max = 1120000,
+				   p.crystal_max = 1120000,
+				   p.deuterium_max = 600000,
+				   p.energy_used = -3350,
+				   p.energy = 3296,
+				   p.b_hangar = 0, u.darkmatter = 0,
+					u.b_tech = '1365416187',
+					u.b_tech_id = '120',
+					u.b_tech_planet = '617',
+					u.b_tech_queue = 'a:10:{i:0;a:5:{i:0;i:120;i:1;i:12;i:2;d:5026;i:3;d:1365416187;i:4;s:3:"617";}i:1;a:5:{i:0;i:110;i:1;i:8;i:2;d:1675;i:3;d:1365417862;i:4;s:3:"617";}i:2;a:5:{i:0;i:106;i:1;i:9;i:2;d:5026;i:3;d:1365422888;i:4;s:3:"617";}i:3;a:5:{i:0;i:111;i:1;i:10;i:2;d:8378;i:3;d:1365431266;i:4;s:3:"617";}i:4;a:5:{i:0;i:115;i:1;i:11;i:2;d:6702;i:3;d:1365437968;i:4;s:3:"617";}i:5;a:5:{i:0;i:131;i:1;i:6;i:2;d:654;i:3;d:1365438622;i:4;s:3:"617";}i:6;a:5:{i:0;i:132;i:1;i:5;i:2;d:458;i:3;d:1365439080;i:4;s:3:"617";}i:7;a:5:{i:0;i:132;i:1;i:6;i:2;d:916;i:3;d:1365439996;i:4;s:3:"617";}i:8;a:5:{i:0;i:133;i:1;i:5;i:2;d:589;i:3;d:1365440585;i:4;s:3:"617";}i:9;a:5:{i:0;i:133;i:1;i:6;i:2;d:1178;i:3;d:1365441763;i:4;s:3:"617";}}'
+					WHERE
+					p.id = 1318 AND
+					u.id = 168;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=techtree | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/pages/game/class.AbstractPage.php(221): ResourceUpdate-&gt;SavePlanetToDB()
+#2 /includes/pages/game/class.AbstractPage.php(228): AbstractPage-&gt;save()
+#3 /includes/pages/game/class.ShowTechtreePage.php(70): AbstractPage-&gt;display('page.techtree.d...')
+#4 /game.php(65): ShowTechtreePage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:13:41] USER ERROR: "SQL Error: Incorrect key file for table '/var/tmp/ramdisk/#sql666_5d13_2.MYI'; try to repair itQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 3 OR (fleet_target_owner = 3 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:14:48] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:14:54] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 318 OR (fleet_target_owner = 318 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:14:56] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:15:00] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 318 OR (fleet_target_owner = 318 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:15:01] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:15:09] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview&cp=1574 | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:16:07] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview&cp=1576 | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:16:21] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 211 OR (fleet_target_owner = 211 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:16:35] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 160000,
+				   p.crystal = 315327.52439327,
+				   p.deuterium = 99999.73133686,
+				   p.eco_hash = '0f1ac27a925d4a61685fb1042135e8de',
+				   p.last_update = 1365416195,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 42,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 1821.6,
+				   p.crystal_perhour = 1214.4,
+				   p.deuterium_perhour = 551.448,
+				   p.metal_max = 160000,
+				   p.crystal_max = 320000,
+				   p.deuterium_max = 160000,
+				   p.energy_used = -1155.39436859,
+				   p.energy = 322,
+				   p.b_hangar = 0, p.metal_mine = p.metal_mine + 1, p.crystal_mine = p.crystal_mine + 1, p.deuterium_sintetizer = p.deuterium_sintetizer + 5, p.solar_plant = p.solar_plant + 3, u.darkmatter = 33750,
+					u.b_tech = '0',
+					u.b_tech_id = '0',
+					u.b_tech_planet = '0',
+					u.b_tech_queue = ''
+					WHERE
+					p.id = 1035 AND
+					u.id = 211;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=techtree | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/pages/game/class.AbstractPage.php(221): ResourceUpdate-&gt;SavePlanetToDB()
+#2 /includes/pages/game/class.AbstractPage.php(228): AbstractPage-&gt;save()
+#3 /includes/pages/game/class.ShowTechtreePage.php(70): AbstractPage-&gt;display('page.techtree.d...')
+#4 /game.php(65): ShowTechtreePage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:16:52] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 160000,
+				   p.crystal = 315333.63683772,
+				   p.deuterium = 100002.33539686,
+				   p.eco_hash = '0f1ac27a925d4a61685fb1042135e8de',
+				   p.last_update = 1365416212,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 42,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 1821.6,
+				   p.crystal_perhour = 1214.4,
+				   p.deuterium_perhour = 551.448,
+				   p.metal_max = 160000,
+				   p.crystal_max = 320000,
+				   p.deuterium_max = 160000,
+				   p.energy_used = -1155.39436859,
+				   p.energy = 322,
+				   p.b_hangar = 0, p.metal_mine = p.metal_mine + 1, p.crystal_mine = p.crystal_mine + 1, p.deuterium_sintetizer = p.deuterium_sintetizer + 5, p.solar_plant = p.solar_plant + 3, u.darkmatter = 33750,
+					u.b_tech = '0',
+					u.b_tech_id = '0',
+					u.b_tech_planet = '0',
+					u.b_tech_queue = ''
+					WHERE
+					p.id = 1035 AND
+					u.id = 211;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=techtree | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/pages/game/class.AbstractPage.php(221): ResourceUpdate-&gt;SavePlanetToDB()
+#2 /includes/pages/game/class.AbstractPage.php(228): AbstractPage-&gt;save()
+#3 /includes/pages/game/class.ShowTechtreePage.php(70): AbstractPage-&gt;display('page.techtree.d...')
+#4 /game.php(65): ShowTechtreePage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:17:06] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 85351.261525895,
+				   p.crystal = 44910.477169162,
+				   p.deuterium = 16666.156104389,
+				   p.eco_hash = 'ed9107a6bf255cd8adaab02b0189a6c9',
+				   p.last_update = 1365416226,
+				   p.b_building = '1365416255',
+				   p.b_building_id = 'a:1:{i:0;a:5:{i:0;i:21;i:1;i:3;i:2;d:288;i:3;d:1365416255;i:4;s:5:"build";}}',
+				   p.field_current = 38,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 7639.750519,
+				   p.crystal_perhour = 4115.690515,
+				   p.deuterium_perhour = 1561.241278,
+				   p.metal_max = 160000,
+				   p.crystal_max = 80000,
+				   p.deuterium_max = 80000,
+				   p.energy_used = -703,
+				   p.energy = 818,
+				   p.b_hangar = 0, u.darkmatter = 40000,
+					u.b_tech = '1365416501',
+					u.b_tech_id = '106',
+					u.b_tech_planet = '1737',
+					u.b_tech_queue = 'a:1:{i:0;a:5:{i:0;i:106;i:1;i:2;i:2;d:540;i:3;d:1365416501;i:4;s:4:"1737";}}'
+					WHERE
+					p.id = 1737 AND
+					u.id = 347;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=research | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/pages/game/class.AbstractPage.php(221): ResourceUpdate-&gt;SavePlanetToDB()
+#2 /includes/pages/game/class.AbstractPage.php(228): AbstractPage-&gt;save()
+#3 /includes/pages/game/class.ShowResearchPage.php(375): AbstractPage-&gt;display('page.research.d...')
+#4 /game.php(65): ShowResearchPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:17:13] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 85366.427707459,
+				   p.crystal = 44918.635456275,
+				   p.deuterium = 16669.191851319,
+				   p.eco_hash = 'ed9107a6bf255cd8adaab02b0189a6c9',
+				   p.last_update = 1365416233,
+				   p.b_building = '1365416255',
+				   p.b_building_id = 'a:1:{i:0;a:5:{i:0;i:21;i:1;i:3;i:2;d:288;i:3;d:1365416255;i:4;s:5:"build";}}',
+				   p.field_current = 38,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 7639.750519,
+				   p.crystal_perhour = 4115.690515,
+				   p.deuterium_perhour = 1561.241278,
+				   p.metal_max = 160000,
+				   p.crystal_max = 80000,
+				   p.deuterium_max = 80000,
+				   p.energy_used = -703,
+				   p.energy = 818,
+				   p.b_hangar = 0, u.darkmatter = 40000,
+					u.b_tech = '1365416501',
+					u.b_tech_id = '106',
+					u.b_tech_planet = '1737',
+					u.b_tech_queue = 'a:1:{i:0;a:5:{i:0;i:106;i:1;i:2;i:2;d:540;i:3;d:1365416501;i:4;s:4:"1737";}}'
+					WHERE
+					p.id = 1737 AND
+					u.id = 347;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=research | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/pages/game/class.AbstractPage.php(221): ResourceUpdate-&gt;SavePlanetToDB()
+#2 /includes/pages/game/class.AbstractPage.php(228): AbstractPage-&gt;save()
+#3 /includes/pages/game/class.ShowResearchPage.php(375): AbstractPage-&gt;display('page.research.d...')
+#4 /game.php(65): ShowResearchPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:17:17] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 85375.094096925,
+				   p.crystal = 44923.297334625,
+				   p.deuterium = 16670.92656385,
+				   p.eco_hash = 'ed9107a6bf255cd8adaab02b0189a6c9',
+				   p.last_update = 1365416237,
+				   p.b_building = '1365416255',
+				   p.b_building_id = 'a:1:{i:0;a:5:{i:0;i:21;i:1;i:3;i:2;d:288;i:3;d:1365416255;i:4;s:5:"build";}}',
+				   p.field_current = 38,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 7639.750519,
+				   p.crystal_perhour = 4115.690515,
+				   p.deuterium_perhour = 1561.241278,
+				   p.metal_max = 160000,
+				   p.crystal_max = 80000,
+				   p.deuterium_max = 80000,
+				   p.energy_used = -703,
+				   p.energy = 818,
+				   p.b_hangar = 0, u.darkmatter = 40000,
+					u.b_tech = '1365416501',
+					u.b_tech_id = '106',
+					u.b_tech_planet = '1737',
+					u.b_tech_queue = 'a:1:{i:0;a:5:{i:0;i:106;i:1;i:2;i:2;d:540;i:3;d:1365416501;i:4;s:4:"1737";}}'
+					WHERE
+					p.id = 1737 AND
+					u.id = 347;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=research | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/pages/game/class.AbstractPage.php(221): ResourceUpdate-&gt;SavePlanetToDB()
+#2 /includes/pages/game/class.AbstractPage.php(228): AbstractPage-&gt;save()
+#3 /includes/pages/game/class.ShowResearchPage.php(375): AbstractPage-&gt;display('page.research.d...')
+#4 /game.php(65): ShowResearchPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:17:35] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 19 OR (fleet_target_owner = 19 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:17:47] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 19 OR (fleet_target_owner = 19 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:17:52] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 19 OR (fleet_target_owner = 19 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:20:33] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:20:49] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 6724841.40195,
+				   p.crystal = 5663057.9989147,
+				   p.deuterium = 1911185.7135158,
+				   p.eco_hash = 'e9d048f57ce986cd0a9328e6c3e14f3d',
+				   p.last_update = 1365416449,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 149,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 163612.727510,
+				   p.crystal_perhour = 108083.559385,
+				   p.deuterium_perhour = 32761.912937,
+				   p.metal_max = 12720000,
+				   p.crystal_max = 6920000,
+				   p.deuterium_max = 3760000,
+				   p.energy_used = -10860,
+				   p.energy = 27973,
+				   p.b_hangar = 0, p.silo = p.silo + 1, u.darkmatter = 600,
+					u.b_tech = '0',
+					u.b_tech_id = '0',
+					u.b_tech_planet = '0',
+					u.b_tech_queue = ''
+					WHERE
+					p.id = 1072 AND
+					u.id = 67;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=buildings | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/pages/game/class.AbstractPage.php(221): ResourceUpdate-&gt;SavePlanetToDB()
+#2 /includes/pages/game/class.AbstractPage.php(228): AbstractPage-&gt;save()
+#3 /includes/pages/game/class.ShowBuildingsPage.php(357): AbstractPage-&gt;display('page.buildings....')
+#4 /game.php(65): ShowBuildingsPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:21:37] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 67 OR (fleet_target_owner = 67 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:22:51] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 251 OR (fleet_target_owner = 251 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:23:14] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 251 OR (fleet_target_owner = 251 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:23:43] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 251 OR (fleet_target_owner = 251 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:23:45] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 0.000000,
+				   p.crystal = 0.000000,
+				   p.deuterium = 0.000000,
+				   p.eco_hash = 'b112332bc2e828d75a5130326ce00722',
+				   p.last_update = 1365416625,
+				   p.b_building = '1365424107',
+				   p.b_building_id = 'a:1:{i:0;a:5:{i:0;i:42;i:1;i:3;i:2;d:8640;i:3;d:1365424107;i:4;s:5:"build";}}',
+				   p.field_current = 13,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 0.000000,
+				   p.crystal_perhour = 0.000000,
+				   p.deuterium_perhour = 0.000000,
+				   p.metal_max = 80000,
+				   p.crystal_max = 80000,
+				   p.deuterium_max = 80000,
+				   p.energy_used = 0,
+				   p.energy = 0,
+				   p.b_hangar = 0, u.darkmatter = 127,
+					u.b_tech = '1365500580',
+					u.b_tech_id = '111',
+					u.b_tech_planet = '234',
+					u.b_tech_queue = 'a:1:{i:0;a:5:{i:0;i:111;i:1;i:17;i:2;d:96692;i:3;d:1365500580;i:4;s:3:"234";}}'
+					WHERE
+					p.id = 1576 AND
+					u.id = 27;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=fleetTable&code=1 | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/pages/game/class.AbstractPage.php(221): ResourceUpdate-&gt;SavePlanetToDB()
+#2 /includes/pages/game/class.AbstractPage.php(228): AbstractPage-&gt;save()
+#3 /includes/pages/game/class.ShowFleetTablePage.php(288): AbstractPage-&gt;display('page.fleetTable...')
+#4 /game.php(65): ShowFleetTablePage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:24:27] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 251 OR (fleet_target_owner = 251 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:25:19] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:26:24] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 0.000000,
+				   p.crystal = 0.000000,
+				   p.deuterium = 0.000000,
+				   p.eco_hash = 'b112332bc2e828d75a5130326ce00722',
+				   p.last_update = 1365416784,
+				   p.b_building = '1365424107',
+				   p.b_building_id = 'a:1:{i:0;a:5:{i:0;i:42;i:1;i:3;i:2;d:8640;i:3;d:1365424107;i:4;s:5:"build";}}',
+				   p.field_current = 13,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 0.000000,
+				   p.crystal_perhour = 0.000000,
+				   p.deuterium_perhour = 0.000000,
+				   p.metal_max = 80000,
+				   p.crystal_max = 80000,
+				   p.deuterium_max = 80000,
+				   p.energy_used = 0,
+				   p.energy = 0,
+				   p.b_hangar = 0, u.darkmatter = 127,
+					u.b_tech = '1365500580',
+					u.b_tech_id = '111',
+					u.b_tech_planet = '234',
+					u.b_tech_queue = 'a:1:{i:0;a:5:{i:0;i:111;i:1;i:17;i:2;d:96692;i:3;d:1365500580;i:4;s:3:"234";}}'
+					WHERE
+					p.id = 1576 AND
+					u.id = 27;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=messages | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/pages/game/class.AbstractPage.php(221): ResourceUpdate-&gt;SavePlanetToDB()
+#2 /includes/pages/game/class.AbstractPage.php(228): AbstractPage-&gt;save()
+#3 /includes/pages/game/class.ShowMessagesPage.php(305): AbstractPage-&gt;display('page.messages.d...')
+#4 /game.php(65): ShowMessagesPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:26:32] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 241694.70885166,
+				   p.crystal = 124355.73528403,
+				   p.deuterium = 48706.940918989,
+				   p.eco_hash = 'aa0f6919107ef21b1f6646e37b492420',
+				   p.last_update = 1365416792,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 181,
+				   p.b_hangar_id = 'a:2:{i:0;a:2:{i:0;i:224;i:1;d:6;}i:1;a:2:{i:0;i:216;i:1;d:5;}}',
+				   p.metal_perhour = 623567.525989,
+				   p.crystal_perhour = 320837.273685,
+				   p.deuterium_perhour = 125625.820840,
+				   p.metal_max = 12720000,
+				   p.crystal_max = 6920000,
+				   p.deuterium_max = 2040000,
+				   p.energy_used = -25728,
+				   p.energy = 32235,
+				   p.b_hangar = 261, p.destroyer = p.destroyer + 1, u.darkmatter = 127,
+					u.b_tech = '1365500580',
+					u.b_tech_id = '111',
+					u.b_tech_planet = '234',
+					u.b_tech_queue = 'a:1:{i:0;a:5:{i:0;i:111;i:1;i:17;i:2;d:96692;i:3;d:1365500580;i:4;s:3:"234";}}'
+					WHERE
+					p.id = 27 AND
+					u.id = 27;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=imperium | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(101): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/pages/game/class.ShowImperiumPage.php(61): ResourceUpdate-&gt;CalcResource(Array, Array, true)
+#3 /game.php(65): ShowImperiumPage-&gt;show()
+#4 {main}
+[08-Apr-2013 13:26:35] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:26:42] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:26:43] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:26:45] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:26:45] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:26:46] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:27:16] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:27:43] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:28:21] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:29:05] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:29:18] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:29:18] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:29:38] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:29:43] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:29:53] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:30:35] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:31:25] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 295 OR (fleet_target_owner = 295 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:31:28] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 600000,
+				   p.crystal = 550993.08072599,
+				   p.deuterium = 320000,
+				   p.eco_hash = '91a11f689680a92e8ded4194ee4b0350',
+				   p.last_update = 1365417088,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 102,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 36989.017903201,
+				   p.crystal_perhour = 28632.23978433,
+				   p.deuterium_perhour = 10053.947933285,
+				   p.metal_max = 600000,
+				   p.crystal_max = 600000,
+				   p.deuterium_max = 320000,
+				   p.energy_used = -4368.3948683999,
+				   p.energy = 7793,
+				   p.b_hangar = 0, p.metal_mine = p.metal_mine + 1, u.darkmatter = 261,
+					u.b_tech = '0',
+					u.b_tech_id = '0',
+					u.b_tech_planet = '0',
+					u.b_tech_queue = ''
+					WHERE
+					p.id = 1523 AND
+					u.id = 295;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=buildings | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/pages/game/class.AbstractPage.php(221): ResourceUpdate-&gt;SavePlanetToDB()
+#2 /includes/pages/game/class.AbstractPage.php(228): AbstractPage-&gt;save()
+#3 /includes/pages/game/class.ShowBuildingsPage.php(357): AbstractPage-&gt;display('page.buildings....')
+#4 /game.php(65): ShowBuildingsPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:31:39] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 235 OR (fleet_target_owner = 235 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:32:48] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 318 OR (fleet_target_owner = 318 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:33:49] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 318 OR (fleet_target_owner = 318 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:34:16] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 318 OR (fleet_target_owner = 318 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:34:40] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 318 OR (fleet_target_owner = 318 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:35:17] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:36:43] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:36:54] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 3605855.9893377,
+				   p.crystal = 2193425.317152,
+				   p.deuterium = 1273001.3051109,
+				   p.eco_hash = '06e5e2838ef57637cacc46b94311f9fd',
+				   p.last_update = 1365416255,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 192,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 458631.76936041,
+				   p.crystal_perhour = 209448.6653139,
+				   p.deuterium_perhour = 49843.114445488,
+				   p.metal_max = 42840000,
+				   p.crystal_max = 42840000,
+				   p.deuterium_max = 23360000,
+				   p.energy_used = -21728.26145331,
+				   p.energy = 26419,
+				   p.b_hangar = 0, u.darkmatter = 602,
+					u.b_tech = '1365443903',
+					u.b_tech_id = '120',
+					u.b_tech_planet = '1369',
+					u.b_tech_queue = 'a:1:{i:0;a:5:{i:0;i:120;i:1;i:15;i:2;d:27648;i:3;d:1365443903;i:4;s:4:"1369";}}'
+					WHERE
+					p.id = 1369 AND
+					u.id = 3;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(608): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/class.PlanetRessUpdate.php(489): ResourceUpdate-&gt;SetNextQueueTechOnTop()
+#3 /includes/classes/class.PlanetRessUpdate.php(93): ResourceUpdate-&gt;ResearchQueue()
+#4 /includes/pages/game/class.AbstractPage.php(44): ResourceUpdate-&gt;CalcResource()
+#5 /includes/pages/game/class.ShowOverviewPage.php(35): AbstractPage-&gt;__construct()
+#6 /game.php(49): ShowOverviewPage-&gt;__construct()
+#7 {main}
+[08-Apr-2013 13:39:16] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 3605855.9893377,
+				   p.crystal = 2193425.317152,
+				   p.deuterium = 1273001.3051109,
+				   p.eco_hash = '06e5e2838ef57637cacc46b94311f9fd',
+				   p.last_update = 1365416255,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 192,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 458631.76936041,
+				   p.crystal_perhour = 209448.6653139,
+				   p.deuterium_perhour = 49843.114445488,
+				   p.metal_max = 42840000,
+				   p.crystal_max = 42840000,
+				   p.deuterium_max = 23360000,
+				   p.energy_used = -21728.26145331,
+				   p.energy = 26419,
+				   p.b_hangar = 0, u.darkmatter = 602,
+					u.b_tech = '1365443903',
+					u.b_tech_id = '120',
+					u.b_tech_planet = '1369',
+					u.b_tech_queue = 'a:1:{i:0;a:5:{i:0;i:120;i:1;i:15;i:2;d:27648;i:3;d:1365443903;i:4;s:4:"1369";}}'
+					WHERE
+					p.id = 1369 AND
+					u.id = 3;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(608): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/class.PlanetRessUpdate.php(489): ResourceUpdate-&gt;SetNextQueueTechOnTop()
+#3 /includes/classes/class.PlanetRessUpdate.php(93): ResourceUpdate-&gt;ResearchQueue()
+#4 /includes/pages/game/class.AbstractPage.php(44): ResourceUpdate-&gt;CalcResource()
+#5 /includes/pages/game/class.ShowOverviewPage.php(35): AbstractPage-&gt;__construct()
+#6 /game.php(49): ShowOverviewPage-&gt;__construct()
+#7 {main}
+[08-Apr-2013 13:39:37] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 318 OR (fleet_target_owner = 318 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:39:48] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 318 OR (fleet_target_owner = 318 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:43:54] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:45:06] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 347 OR (fleet_target_owner = 347 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:48:34] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 3605855.9893377,
+				   p.crystal = 2193425.317152,
+				   p.deuterium = 1273001.3051109,
+				   p.eco_hash = '06e5e2838ef57637cacc46b94311f9fd',
+				   p.last_update = 1365416255,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 192,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 458631.76936041,
+				   p.crystal_perhour = 209448.6653139,
+				   p.deuterium_perhour = 49843.114445488,
+				   p.metal_max = 42840000,
+				   p.crystal_max = 42840000,
+				   p.deuterium_max = 23360000,
+				   p.energy_used = -21728.26145331,
+				   p.energy = 26419,
+				   p.b_hangar = 0, u.darkmatter = 602,
+					u.b_tech = '1365443903',
+					u.b_tech_id = '120',
+					u.b_tech_planet = '1369',
+					u.b_tech_queue = 'a:1:{i:0;a:5:{i:0;i:120;i:1;i:15;i:2;d:27648;i:3;d:1365443903;i:4;s:4:"1369";}}'
+					WHERE
+					p.id = 1369 AND
+					u.id = 3;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(608): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/class.PlanetRessUpdate.php(489): ResourceUpdate-&gt;SetNextQueueTechOnTop()
+#3 /includes/classes/class.PlanetRessUpdate.php(93): ResourceUpdate-&gt;ResearchQueue()
+#4 /includes/pages/game/class.AbstractPage.php(44): ResourceUpdate-&gt;CalcResource()
+#5 /includes/pages/game/class.ShowOverviewPage.php(35): AbstractPage-&gt;__construct()
+#6 /game.php(49): ShowOverviewPage-&gt;__construct()
+#7 {main}
+[08-Apr-2013 13:51:33] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:52:42] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 67 OR (fleet_target_owner = 67 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:54:21] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 67 OR (fleet_target_owner = 67 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:55:40] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 3605855.9893377,
+				   p.crystal = 2193425.317152,
+				   p.deuterium = 1273001.3051109,
+				   p.eco_hash = '06e5e2838ef57637cacc46b94311f9fd',
+				   p.last_update = 1365416255,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 192,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 458631.76936041,
+				   p.crystal_perhour = 209448.6653139,
+				   p.deuterium_perhour = 49843.114445488,
+				   p.metal_max = 42840000,
+				   p.crystal_max = 42840000,
+				   p.deuterium_max = 23360000,
+				   p.energy_used = -21728.26145331,
+				   p.energy = 26419,
+				   p.b_hangar = 0, u.darkmatter = 602,
+					u.b_tech = '1365443903',
+					u.b_tech_id = '120',
+					u.b_tech_planet = '1369',
+					u.b_tech_queue = 'a:1:{i:0;a:5:{i:0;i:120;i:1;i:15;i:2;d:27648;i:3;d:1365443903;i:4;s:4:"1369";}}'
+					WHERE
+					p.id = 1369 AND
+					u.id = 3;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(608): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/class.PlanetRessUpdate.php(489): ResourceUpdate-&gt;SetNextQueueTechOnTop()
+#3 /includes/classes/class.PlanetRessUpdate.php(93): ResourceUpdate-&gt;ResearchQueue()
+#4 /includes/pages/game/class.AbstractPage.php(44): ResourceUpdate-&gt;CalcResource()
+#5 /includes/pages/game/class.ShowOverviewPage.php(35): AbstractPage-&gt;__construct()
+#6 /game.php(49): ShowOverviewPage-&gt;__construct()
+#7 {main}
+[08-Apr-2013 13:55:51] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:56:16] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 56 OR (fleet_target_owner = 56 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:56:49] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 206 OR (fleet_target_owner = 206 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:56:53] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 206 OR (fleet_target_owner = 206 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:56:53] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 56 OR (fleet_target_owner = 56 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:56:57] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 206 OR (fleet_target_owner = 206 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:56:59] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 206 OR (fleet_target_owner = 206 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:57:05] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 56 OR (fleet_target_owner = 56 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?=/includes/classes/class.FlyingFleetsTable.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:57:06] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 206 OR (fleet_target_owner = 206 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:57:07] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 206 OR (fleet_target_owner = 206 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:57:22] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 56 OR (fleet_target_owner = 56 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:59:52] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 87 OR (fleet_target_owner = 87 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 13:59:55] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 87 OR (fleet_target_owner = 87 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:00:00] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 87 OR (fleet_target_owner = 87 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:00:09] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 19 OR (fleet_target_owner = 19 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:00:11] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 19 OR (fleet_target_owner = 19 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:01:17] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 318 OR (fleet_target_owner = 318 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:01:36] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 67 OR (fleet_target_owner = 67 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:01:42] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 67 OR (fleet_target_owner = 67 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:02:08] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:03:25] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:04:15] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 3605855.9893377,
+				   p.crystal = 2193425.317152,
+				   p.deuterium = 1273001.3051109,
+				   p.eco_hash = '06e5e2838ef57637cacc46b94311f9fd',
+				   p.last_update = 1365416255,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 192,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 458631.76936041,
+				   p.crystal_perhour = 209448.6653139,
+				   p.deuterium_perhour = 49843.114445488,
+				   p.metal_max = 42840000,
+				   p.crystal_max = 42840000,
+				   p.deuterium_max = 23360000,
+				   p.energy_used = -21728.26145331,
+				   p.energy = 26419,
+				   p.b_hangar = 0, u.darkmatter = 602,
+					u.b_tech = '1365443903',
+					u.b_tech_id = '120',
+					u.b_tech_planet = '1369',
+					u.b_tech_queue = 'a:1:{i:0;a:5:{i:0;i:120;i:1;i:15;i:2;d:27648;i:3;d:1365443903;i:4;s:4:"1369";}}'
+					WHERE
+					p.id = 1369 AND
+					u.id = 3;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(608): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/class.PlanetRessUpdate.php(489): ResourceUpdate-&gt;SetNextQueueTechOnTop()
+#3 /includes/classes/class.PlanetRessUpdate.php(93): ResourceUpdate-&gt;ResearchQueue()
+#4 /includes/pages/game/class.AbstractPage.php(44): ResourceUpdate-&gt;CalcResource()
+#5 /includes/pages/game/class.ShowOverviewPage.php(35): AbstractPage-&gt;__construct()
+#6 /game.php(49): ShowOverviewPage-&gt;__construct()
+#7 {main}
+[08-Apr-2013 14:05:58] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 235 OR (fleet_target_owner = 235 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:06:42] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 64 OR (fleet_target_owner = 64 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:07:08] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 64 OR (fleet_target_owner = 64 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:08:28] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 156 OR (fleet_target_owner = 156 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:08:32] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 156 OR (fleet_target_owner = 156 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:09:31] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 4023867.8938657,
+				   p.crystal = 410610.85736672,
+				   p.deuterium = 1196798.9437631,
+				   p.eco_hash = '92074fa37706268dfd02a6e45124d490',
+				   p.last_update = 1365401545,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 190,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 240334.51111765,
+				   p.crystal_perhour = 181067.68841634,
+				   p.deuterium_perhour = 51402.223258161,
+				   p.metal_max = 78560000,
+				   p.crystal_max = 78560000,
+				   p.deuterium_max = 42840000,
+				   p.energy_used = -14816.64385124,
+				   p.energy = 25564,
+				   p.b_hangar = 0, u.darkmatter = 623,
+					u.b_tech = '1365403273',
+					u.b_tech_id = '133',
+					u.b_tech_planet = '1245',
+					u.b_tech_queue = 'a:3:{i:0;a:5:{i:0;i:133;i:1;i:10;i:2;d:1728;i:3;d:1365403273;i:4;s:4:"1245";}i:1;a:5:{i:0;i:132;i:1;i:9;i:2;d:1344;i:3;d:1365406345;i:4;s:4:"1245";}i:2;a:5:{i:0;i:131;i:1;i:10;i:2;d:1920;i:3;d:1365408265;i:4;s:4:"1245";}}'
+					WHERE
+					p.id = 1245 AND
+					u.id = 200;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(608): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/class.PlanetRessUpdate.php(489): ResourceUpdate-&gt;SetNextQueueTechOnTop()
+#3 /includes/classes/class.PlanetRessUpdate.php(93): ResourceUpdate-&gt;ResearchQueue()
+#4 /includes/pages/game/class.AbstractPage.php(44): ResourceUpdate-&gt;CalcResource()
+#5 /includes/pages/game/class.ShowOverviewPage.php(35): AbstractPage-&gt;__construct()
+#6 /game.php(49): ShowOverviewPage-&gt;__construct()
+#7 {main}
+[08-Apr-2013 14:09:39] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 4023867.8938657,
+				   p.crystal = 410610.85736672,
+				   p.deuterium = 1196798.9437631,
+				   p.eco_hash = '92074fa37706268dfd02a6e45124d490',
+				   p.last_update = 1365401545,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 190,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 240334.51111765,
+				   p.crystal_perhour = 181067.68841634,
+				   p.deuterium_perhour = 51402.223258161,
+				   p.metal_max = 78560000,
+				   p.crystal_max = 78560000,
+				   p.deuterium_max = 42840000,
+				   p.energy_used = -14816.64385124,
+				   p.energy = 25564,
+				   p.b_hangar = 0, u.darkmatter = 623,
+					u.b_tech = '1365403273',
+					u.b_tech_id = '133',
+					u.b_tech_planet = '1245',
+					u.b_tech_queue = 'a:3:{i:0;a:5:{i:0;i:133;i:1;i:10;i:2;d:1728;i:3;d:1365403273;i:4;s:4:"1245";}i:1;a:5:{i:0;i:132;i:1;i:9;i:2;d:1344;i:3;d:1365406345;i:4;s:4:"1245";}i:2;a:5:{i:0;i:131;i:1;i:10;i:2;d:1920;i:3;d:1365408265;i:4;s:4:"1245";}}'
+					WHERE
+					p.id = 1245 AND
+					u.id = 200;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(608): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/class.PlanetRessUpdate.php(489): ResourceUpdate-&gt;SetNextQueueTechOnTop()
+#3 /includes/classes/class.PlanetRessUpdate.php(93): ResourceUpdate-&gt;ResearchQueue()
+#4 /includes/pages/game/class.AbstractPage.php(44): ResourceUpdate-&gt;CalcResource()
+#5 /includes/pages/game/class.ShowOverviewPage.php(35): AbstractPage-&gt;__construct()
+#6 /game.php(49): ShowOverviewPage-&gt;__construct()
+#7 {main}
+[08-Apr-2013 14:09:55] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 4023867.8938657,
+				   p.crystal = 410610.85736672,
+				   p.deuterium = 1196798.9437631,
+				   p.eco_hash = '92074fa37706268dfd02a6e45124d490',
+				   p.last_update = 1365401545,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 190,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 240334.51111765,
+				   p.crystal_perhour = 181067.68841634,
+				   p.deuterium_perhour = 51402.223258161,
+				   p.metal_max = 78560000,
+				   p.crystal_max = 78560000,
+				   p.deuterium_max = 42840000,
+				   p.energy_used = -14816.64385124,
+				   p.energy = 25564,
+				   p.b_hangar = 0, u.darkmatter = 623,
+					u.b_tech = '1365403273',
+					u.b_tech_id = '133',
+					u.b_tech_planet = '1245',
+					u.b_tech_queue = 'a:3:{i:0;a:5:{i:0;i:133;i:1;i:10;i:2;d:1728;i:3;d:1365403273;i:4;s:4:"1245";}i:1;a:5:{i:0;i:132;i:1;i:9;i:2;d:1344;i:3;d:1365406345;i:4;s:4:"1245";}i:2;a:5:{i:0;i:131;i:1;i:10;i:2;d:1920;i:3;d:1365408265;i:4;s:4:"1245";}}'
+					WHERE
+					p.id = 1245 AND
+					u.id = 200;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(608): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/class.PlanetRessUpdate.php(489): ResourceUpdate-&gt;SetNextQueueTechOnTop()
+#3 /includes/classes/class.PlanetRessUpdate.php(93): ResourceUpdate-&gt;ResearchQueue()
+#4 /includes/pages/game/class.AbstractPage.php(44): ResourceUpdate-&gt;CalcResource()
+#5 /includes/pages/game/class.ShowOverviewPage.php(35): AbstractPage-&gt;__construct()
+#6 /game.php(49): ShowOverviewPage-&gt;__construct()
+#7 {main}
+[08-Apr-2013 14:10:26] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:10:45] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 345 OR (fleet_target_owner = 345 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:12:03] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 345 OR (fleet_target_owner = 345 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:13:05] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 4023867.8938657,
+				   p.crystal = 410610.85736672,
+				   p.deuterium = 1196798.9437631,
+				   p.eco_hash = '92074fa37706268dfd02a6e45124d490',
+				   p.last_update = 1365401545,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 190,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 240334.51111765,
+				   p.crystal_perhour = 181067.68841634,
+				   p.deuterium_perhour = 51402.223258161,
+				   p.metal_max = 78560000,
+				   p.crystal_max = 78560000,
+				   p.deuterium_max = 42840000,
+				   p.energy_used = -14816.64385124,
+				   p.energy = 25564,
+				   p.b_hangar = 0, u.darkmatter = 623,
+					u.b_tech = '1365403273',
+					u.b_tech_id = '133',
+					u.b_tech_planet = '1245',
+					u.b_tech_queue = 'a:3:{i:0;a:5:{i:0;i:133;i:1;i:10;i:2;d:1728;i:3;d:1365403273;i:4;s:4:"1245";}i:1;a:5:{i:0;i:132;i:1;i:9;i:2;d:1344;i:3;d:1365406345;i:4;s:4:"1245";}i:2;a:5:{i:0;i:131;i:1;i:10;i:2;d:1920;i:3;d:1365408265;i:4;s:4:"1245";}}'
+					WHERE
+					p.id = 1245 AND
+					u.id = 200;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=fleetTable | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(608): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/class.PlanetRessUpdate.php(489): ResourceUpdate-&gt;SetNextQueueTechOnTop()
+#3 /includes/classes/class.PlanetRessUpdate.php(93): ResourceUpdate-&gt;ResearchQueue()
+#4 /includes/pages/game/class.AbstractPage.php(44): ResourceUpdate-&gt;CalcResource()
+#5 /includes/pages/game/class.ShowFleetTablePage.php(38): AbstractPage-&gt;__construct()
+#6 /game.php(49): ShowFleetTablePage-&gt;__construct()
+#7 {main}
+[08-Apr-2013 14:14:06] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 87 OR (fleet_target_owner = 87 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:14:25] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 4023867.8938657,
+				   p.crystal = 410610.85736672,
+				   p.deuterium = 1196798.9437631,
+				   p.eco_hash = '92074fa37706268dfd02a6e45124d490',
+				   p.last_update = 1365401545,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 190,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 240334.51111765,
+				   p.crystal_perhour = 181067.68841634,
+				   p.deuterium_perhour = 51402.223258161,
+				   p.metal_max = 78560000,
+				   p.crystal_max = 78560000,
+				   p.deuterium_max = 42840000,
+				   p.energy_used = -14816.64385124,
+				   p.energy = 25564,
+				   p.b_hangar = 0, u.darkmatter = 623,
+					u.b_tech = '1365403273',
+					u.b_tech_id = '133',
+					u.b_tech_planet = '1245',
+					u.b_tech_queue = 'a:3:{i:0;a:5:{i:0;i:133;i:1;i:10;i:2;d:1728;i:3;d:1365403273;i:4;s:4:"1245";}i:1;a:5:{i:0;i:132;i:1;i:9;i:2;d:1344;i:3;d:1365406345;i:4;s:4:"1245";}i:2;a:5:{i:0;i:131;i:1;i:10;i:2;d:1920;i:3;d:1365408265;i:4;s:4:"1245";}}'
+					WHERE
+					p.id = 1245 AND
+					u.id = 200;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=buildings | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(608): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/class.PlanetRessUpdate.php(489): ResourceUpdate-&gt;SetNextQueueTechOnTop()
+#3 /includes/classes/class.PlanetRessUpdate.php(93): ResourceUpdate-&gt;ResearchQueue()
+#4 /includes/pages/game/class.AbstractPage.php(44): ResourceUpdate-&gt;CalcResource()
+#5 /includes/pages/game/class.ShowBuildingsPage.php(35): AbstractPage-&gt;__construct()
+#6 /game.php(49): ShowBuildingsPage-&gt;__construct()
+#7 {main}
+[08-Apr-2013 14:14:35] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 345 OR (fleet_target_owner = 345 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:14:38] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 246 OR (fleet_target_owner = 246 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:16:45] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 118 OR (fleet_target_owner = 118 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:17:36] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 118 OR (fleet_target_owner = 118 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:17:49] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 227 OR (fleet_target_owner = 227 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:17:55] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 227 OR (fleet_target_owner = 227 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:17:59] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 44 OR (fleet_target_owner = 44 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:18:07] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 44 OR (fleet_target_owner = 44 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:18:20] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 227 OR (fleet_target_owner = 227 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:18:30] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 44 OR (fleet_target_owner = 44 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:20:03] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 339 OR (fleet_target_owner = 339 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:20:10] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 227 OR (fleet_target_owner = 227 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:20:14] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 227 OR (fleet_target_owner = 227 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:20:15] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 339 OR (fleet_target_owner = 339 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:20:17] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 339 OR (fleet_target_owner = 339 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:20:17] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 339 OR (fleet_target_owner = 339 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:20:18] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 339 OR (fleet_target_owner = 339 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:20:29] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 339 OR (fleet_target_owner = 339 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:20:40] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 227 OR (fleet_target_owner = 227 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:21:05] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 339 OR (fleet_target_owner = 339 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:21:11] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 118 OR (fleet_target_owner = 118 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:21:27] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 27 OR (fleet_target_owner = 27 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:22:13] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 4023867.8938657,
+				   p.crystal = 410610.85736672,
+				   p.deuterium = 1196798.9437631,
+				   p.eco_hash = '92074fa37706268dfd02a6e45124d490',
+				   p.last_update = 1365401545,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 190,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 240334.51111765,
+				   p.crystal_perhour = 181067.68841634,
+				   p.deuterium_perhour = 51402.223258161,
+				   p.metal_max = 78560000,
+				   p.crystal_max = 78560000,
+				   p.deuterium_max = 42840000,
+				   p.energy_used = -14816.64385124,
+				   p.energy = 25564,
+				   p.b_hangar = 0, u.darkmatter = 623,
+					u.b_tech = '1365403273',
+					u.b_tech_id = '133',
+					u.b_tech_planet = '1245',
+					u.b_tech_queue = 'a:3:{i:0;a:5:{i:0;i:133;i:1;i:10;i:2;d:1728;i:3;d:1365403273;i:4;s:4:"1245";}i:1;a:5:{i:0;i:132;i:1;i:9;i:2;d:1344;i:3;d:1365406345;i:4;s:4:"1245";}i:2;a:5:{i:0;i:131;i:1;i:10;i:2;d:1920;i:3;d:1365408265;i:4;s:4:"1245";}}'
+					WHERE
+					p.id = 1245 AND
+					u.id = 200;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=buildings | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/classes/class.PlanetRessUpdate.php(608): ResourceUpdate-&gt;SavePlanetToDB(Array, Array)
+#2 /includes/classes/class.PlanetRessUpdate.php(489): ResourceUpdate-&gt;SetNextQueueTechOnTop()
+#3 /includes/classes/class.PlanetRessUpdate.php(93): ResourceUpdate-&gt;ResearchQueue()
+#4 /includes/pages/game/class.AbstractPage.php(44): ResourceUpdate-&gt;CalcResource()
+#5 /includes/pages/game/class.ShowBuildingsPage.php(35): AbstractPage-&gt;__construct()
+#6 /game.php(49): ShowBuildingsPage-&gt;__construct()
+#7 {main}
+[08-Apr-2013 14:23:17] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 339 OR (fleet_target_owner = 339 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:24:45] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: LOCK TABLE uni1_planets as p WRITE, uni1_users as u WRITE;
+				   UPDATE uni1_planets as p, uni1_users as u SET
+				   p.metal = 160000,
+				   p.crystal = 316798.1066155,
+				   p.deuterium = 100626.23753686,
+				   p.eco_hash = '0f1ac27a925d4a61685fb1042135e8de',
+				   p.last_update = 1365420285,
+				   p.b_building = '0',
+				   p.b_building_id = '',
+				   p.field_current = 42,
+				   p.b_hangar_id = '',
+				   p.metal_perhour = 1821.6,
+				   p.crystal_perhour = 1214.4,
+				   p.deuterium_perhour = 551.448,
+				   p.metal_max = 160000,
+				   p.crystal_max = 320000,
+				   p.deuterium_max = 160000,
+				   p.energy_used = -1155.39436859,
+				   p.energy = 322,
+				   p.b_hangar = 0, p.metal_mine = p.metal_mine + 1, p.crystal_mine = p.crystal_mine + 1, p.deuterium_sintetizer = p.deuterium_sintetizer + 5, p.solar_plant = p.solar_plant + 3, u.darkmatter = 33750,
+					u.b_tech = '0',
+					u.b_tech_id = '0',
+					u.b_tech_planet = '0',
+					u.b_tech_queue = ''
+					WHERE
+					p.id = 1035 AND
+					u.id = 211;
+					UNLOCK TABLES;"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 274
+URL: http://oga.4local.ru/game.php?page=techtree | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.PlanetRessUpdate.php(673): Database-&gt;multi_query('LOCK TABLE uni1...')
+#1 /includes/pages/game/class.AbstractPage.php(221): ResourceUpdate-&gt;SavePlanetToDB()
+#2 /includes/pages/game/class.AbstractPage.php(228): AbstractPage-&gt;save()
+#3 /includes/pages/game/class.ShowTechtreePage.php(70): AbstractPage-&gt;display('page.techtree.d...')
+#4 /game.php(65): ShowTechtreePage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:25:09] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 34 OR (fleet_target_owner = 34 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:25:18] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 34 OR (fleet_target_owner = 34 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}
+[08-Apr-2013 14:26:09] USER ERROR: "SQL Error: Got error 28 from storage engineQuery Code: SELECT DISTINCT fleet.*, ownuser.username as own_username, targetuser.username as target_username, ownplanet.name as own_planetname, targetplanet.name as target_planetname 
+		FROM uni1_fleets fleet
+		LEFT JOIN uni1_users ownuser ON (ownuser.id = fleet.fleet_owner)
+		LEFT JOIN uni1_users targetuser ON (targetuser.id = fleet.fleet_target_owner)
+		LEFT JOIN uni1_planets ownplanet ON (ownplanet.id = fleet.fleet_start_id)
+		LEFT JOIN uni1_planets targetplanet ON (targetplanet.id = fleet.fleet_end_id)
+		WHERE fleet_owner = 318 OR (fleet_target_owner = 318 AND fleet_mission != 8);"
+File: /hosting/oga.4local.ru/www/includes/classes/class.Database.php | Line: 80
+URL: http://oga.4local.ru/game.php?page=overview | Version: 1.7.2629
+Stack trace:
+#0 /includes/classes/class.FlyingFleetsTable.php(76): Database-&gt;query('SELECT DISTINCT...')
+#1 /includes/classes/class.FlyingFleetsTable.php(81): FlyingFleetsTable-&gt;getFleets()
+#2 /includes/pages/game/class.ShowOverviewPage.php(80): FlyingFleetsTable-&gt;renderTable()
+#3 /includes/pages/game/class.ShowOverviewPage.php(255): ShowOverviewPage-&gt;GetFleets()
+#4 /game.php(65): ShowOverviewPage-&gt;show()
+#5 {main}

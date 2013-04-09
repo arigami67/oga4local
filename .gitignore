@@ -3,7 +3,7 @@ log/
 tmp/
 cgi-bin/
 www/cache/
-www/archive_games/
+www/arhive_games/
 www/includes/backups/
 www/browser/
 www/PHPMyAdmin/
@@ -14,3 +14,8 @@ www/tools/
 www/yandex.js
 www/styles/images/Капец_01.bmp
 www/styles/images/шаблоны/
+www/styles/images/alliance/
+www/styles/images/chiter/
+www/styles/images/contact.jpg
+www/styles/resource/reklama/
+www/www.zip
